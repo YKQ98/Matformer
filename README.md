@@ -1,5 +1,4 @@
-# Matformer
-Periodic Graph Transformers for Crystal Material Property Prediction
+# Periodic Graph Transformers for Crystal Material Property Prediction
 
 <!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MinkaiXu/GeoDiff/blob/main/LICENSE) -->
 
@@ -9,9 +8,6 @@ The official implementation of Periodic Graph Transformers for Crystal Material 
 
 ![cover](assets/matformer_graph.png)
 ![cover](assets/matformer.png)
-
-## Official code release
-Coming soon, stay tuned!
 
 ## Dataset
 
@@ -32,6 +28,24 @@ JARVIS is a newly released database proposed by Choudhary et al.. For JARVIS dat
 ![cover](assets/mp.png)
 ### JARVIS dataset
 ![cover](assets/jarvis.png)
+## Training and Prediction
+
+You can train and test the model with the following commands:
+
+```bash
+conda create --name matformer python=3.10
+conda activate matformer
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install pyg -c pyg
+pip install jarvis-tools==2022.9.16
+python setup.py
+# Training Matformer for the Materials Project
+cd matformer/scripts/mp
+python train.py
+# Training Matformer for JARVIS
+cd matformer/scripts/jarvis
+python train.py
+```
 
 ## Efficiency
 ![cover](assets/efficient.png)
@@ -47,6 +61,9 @@ Please cite our paper if you find the code helpful or if you want to use the ben
 }
 ```
 
+## Acknowledgement
+
+This repo is built upon the previous work ALIGNN's [[codebase]](https://github.com/usnistgov/alignn). Thank you very much for the excellent codebase.
 
 ## Contact
 
