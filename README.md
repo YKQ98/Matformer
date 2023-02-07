@@ -53,10 +53,10 @@ python train.py
 ## Citation
 Please cite our paper if you find the code helpful or if you want to use the benchmark results of the Materials Project and JARVIS. Thank you!
 ```
-@article{yan2022periodic,
+@inproceedings{yan2022periodic,
   title={Periodic Graph Transformers for Crystal Material Property Prediction},
-  author={Yan, Keqiang and Liu, Yi and Lin, Yuchao and Ji, Shuiwang},
-  journal={arXiv preprint arXiv:2209.11807},
+  author={Keqiang Yan and Yi Liu and Yuchao Lin and Shuiwang Ji},
+  booktitle={The 36th Annual Conference on Neural Information Processing Systems},
   year={2022}
 }
 ```
