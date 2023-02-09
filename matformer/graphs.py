@@ -37,7 +37,7 @@ class PygStructureDataset(torch.utils.data.Dataset):
         classification=False,
         id_tag="jid",
         neighbor_strategy="",
-        lineControl=False,
+        lineControl=True,
         mean_train=None,
         std_train=None,
     ):
