@@ -16,6 +16,8 @@ We provide benchmark results for previous works, including CGCNN, SchNet, MEGNET
 
 In particular, for tasks of formation energy and band gap, we directly follow ALIGNN and use the same training, validation, and test set, including 60000, 5000, and 4239 crystals, respectively. For tasks of Bulk Moduli and Shear Moduli, we follow GATGNN, the recent state-of-the-art method for these two tasks, and use the same training, validation, and test sets, including 4664, 393, and 393 crystals. In Shear Moduli, one validation sample is removed because of the negative GPa value. We either directly use the publicly available codes from the authors, or re-implement models based on their official codes and configurations to produce the results.
 
+For bulk and shear datasets, we published the datasets at https://figshare.com/projects/Bulk_and_shear_datasets/165430
+
 ### JARVIS dataset
 We also provide benchmark results for previous works, including CGCNN, SchNet, MEGNET, GATGNN, ALIGNN on JARVIS Dataset.
 
