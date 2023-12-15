@@ -49,6 +49,8 @@ cd matformer/scripts/jarvis
 python train.py
 ```
 
+when using the above scripts, please remember to adjust the properties you want to train in train.py, and also add mp_id_list="shear" or "bulk" if you want to train the model for shear or bulk moduli.
+
 ## Efficiency
 ![cover](assets/efficient.png)
 
